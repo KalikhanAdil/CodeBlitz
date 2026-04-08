@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
 // ── CONFIG — замени на свой Render URL после деплоя ───────────────────
-const WS_URL = "ws://localhost:8080";
+const WS_URL = "wsscd codeblitz-frontend://https://codeblitz-9yzz.onrender.com";
 // Для локальной разработки: const WS_URL = "ws://localhost:8080";
 
 const FONTS = `@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@700;900&display=swap');`;
