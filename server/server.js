@@ -45,7 +45,7 @@ function roomInfo(room) {
       finished: p.finished,
     })),
   };
-}
+}git 
 
 // ── Cleanup empty rooms after 30 min ─────────────────────────────────
 setInterval(() => {
@@ -266,13 +266,10 @@ wss.on("connection", (ws) => {
 
   ws.on("error", (err) => console.error(`WS error ${playerId}:`, err.message));
 });
-self-ping:
-```js
 // Добавь в конец server.js
 const SELF_URL = process.env.RENDER_EXTERNAL_URL;
 if (SELF_URL) {
   setInterval(() => {
     fetch(SELF_URL + "/health").catch(() => {});
   }, 10 * 60 * 1000); // каждые 10 мин
-}git
-
+}
